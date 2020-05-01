@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.13.5
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -2628,3 +2628,6 @@ patch:
         patched: '2019-07-12T13:19:55.729Z'
     - react-scripts > @svgr/webpack > @babel/core > @babel/types > lodash:
         patched: '2019-07-12T13:19:55.729Z'
+  SNYK-JS-LODASH-567746:
+    - react-redux > lodash:
+        patched: '2020-05-01T06:42:42.725Z'
